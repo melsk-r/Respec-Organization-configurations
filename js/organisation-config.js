@@ -1,8 +1,5 @@
 // Plaats dit bestand op een centrale locatie voor hergebruik in meerdere documenten.
 var organisationConfig = {
-    useLogo: true,
-    useLabel: true,
-    license: "eupl",
     nl_organisationName: "VNG Realisatie",
     // Onderstaande 2 variabelen moeten waarschijnlijk nog aangepast worden.
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
@@ -14,13 +11,6 @@ var organisationConfig = {
         alt: "VNG-Realisatie",
         id: "VNG-Realisatie",
         height: 77,
-        url: "https://www.vng.nl",
-    },
-    {
-        src: "https://melsk-r.github.io/Respec-Organization-configurations/media/logo-VNG-Realisatie.jpg",
-        alt: "VNG-Realisatie2",
-        id: "VNG-Realisatie2",
-        height: 17,
         url: "https://www.vng.nl",
     }],
 
@@ -119,6 +109,8 @@ var organisationConfig = {
     labelColor: {
         def: "#154273",
         wv: "#39870c",
+	ig: "#A569BD",
+	io: "#DC7633"
     },
 	
     licenses: {
