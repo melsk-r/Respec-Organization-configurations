@@ -43,14 +43,14 @@ var organisationConfig = {
 
     localizationStrings: {
         en: {
-            // Documentstatussen	
+            // Specificatie-statussen	
             wv: "Draft",
             cv: "Recommendation",
             vv: "Proposed recommendation",
             def: "Definitive version",
             eo: "Outdated version",
             tg: "Rescinded version",
-	    // Document types
+	    // Specificatie-types
             basis: "Document",
             no: "Norm",
             st: "Standard",
@@ -63,7 +63,7 @@ var organisationConfig = {
             bp: "Best practice",
         },
         nl: {
-            // Documentstatussen	
+            // Specificatie-statussen	
             wv: "Werkversie",
             cv: "Consultatieversie",
             vv: "Versie ter vaststelling",
@@ -73,7 +73,7 @@ var organisationConfig = {
             tst: "Test versie",
 	    ig: "In Gebruik",
 	    io: "In Ontwikkeling",
-	    // Document types
+	    // Specificatie-types
             basis: "Document",
             no: "Norm",
             st: "Standaard",
