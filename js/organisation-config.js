@@ -28,11 +28,11 @@ var organisationConfig = {
    // Onderzoeken hoe je een oude versie kunt publiceren.
    // ---------------------------------------------------
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-    latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
+   // latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-    thisVersion: ["nl_organisationPublishURL", "shortName"],
+   // thisVersion: ["nl_organisationPublishURL", "shortName"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
-    prevVersion: ["nl_organisationPublishURL", "shortName"],
+   // prevVersion: ["nl_organisationPublishURL", "shortName"],
 
    // Nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terijl die 
    // van de huidige en laatste versie voldoet aan de naam zoals deze is. Dat zorgt er nl. voor dat die url niet werkt.
