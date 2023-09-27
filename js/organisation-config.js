@@ -41,7 +41,7 @@ var organisationConfig = {
     useLabel: true,
 
     license: "eupl",
-    addSectionLinks: true,
+    addSectionLinks: false,
 
     localizationStrings: {
         en: {
