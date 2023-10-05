@@ -144,6 +144,11 @@ var organisationConfig = {
     },
 
     localBiblio: {
+      "ORICODE": {
+        "href": "https://www.unicode.org/versions/latest/",
+        "publisher": "Unicode Consortium",
+        "title": "The Unicode Standard"
+        },
         "SemVer": {
             href: "https://semver.org",
             title: "Semantic Versioning 2.0.0",
