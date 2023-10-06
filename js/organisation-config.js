@@ -147,7 +147,9 @@ var organisationConfig = {
         "ORICODE": {
            "href": "https://www.unicode.org/versions/latest/",
            "publisher": "Unicode Consortium",
-           "title": "The Unicode Standard"
+           "title": "The Unicode Standard",
+            date: "June 2013",
+            rawDate: "2021"
         },
         "SemVer": {
             href: "https://semver.org",
