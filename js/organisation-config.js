@@ -97,7 +97,7 @@ var organisationConfig = {
             cv: `Dit is een door het TO goedgekeurde consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
             vv: `Dit is een definitief concept van de nieuwe versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
             basis: "Dit is een document zonder officiële status.",
-	    io: "Dit document is nog In 'Ontwikkeling'.",
+	    io: "Dit document is nog 'In Ontwikkeling'.",
         },
         en: {
             sotd: "Status of This Document",
@@ -106,6 +106,7 @@ var organisationConfig = {
             cv: `This is a proposed recommendation approved by TO. Comments regarding this document may be sent to `,
             vv: `This is the definitive concept of this document. Edits resulting from consultations have been applied.`,
             basis: "This document has no official standing.",
+	    io: "This document is is still 'Under Development'.",
         },
     },
 
