@@ -9,4 +9,9 @@ De tweede folder bevat 'logo-VNG-Realisatie.ico' en 'logo-VNG-Realisatie.jpg', i
 
 Verwijderen van deze repositoy leidt tot andere resultaten bij het renderen van de Respec documentatie in de andere repositories. Verwijder deze repository dan ook alleen als het renderen van Respec documentatie niet meer van toepassing is of als dit op een andere wijze wordt gedaan.
 
-Waarschijnlijk kan het 'build.yml' action script in de folder '.github/workflows/' van deze repository nog worden verwijderd aangezien het renderen van Respec documentatie voor deze repository niet van belang is. Vooralsnog laten we die echter nog even staan.
+Het 'build.yml' action script in de folder '.github/workflows/' is disabled aangezien het renderen van Respec documentatie voor deze repository niet van belang is. Disablen is gerealiseerd door:
+
+* Het bestand te hernoemen naar 'githubworkflowsbuild.txt' en het te verplaatsen naar de 'root' folder;
+* In de Settings van deze repository 'Actions' en de 'Actions' tab te disablen.
+
+Op een later moment zullen we dit bestand verwijderen.
