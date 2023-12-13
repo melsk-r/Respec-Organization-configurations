@@ -24,16 +24,14 @@ var organisationConfig = {
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
 
-   latest: "Laatste",
-   
    // Onderzoeken hoe je een oude versie kunt publiceren.
    // ---------------------------------------------------
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-   latestVersion: ["nl_organisationPublishURL", "latest", "/", "shortName"],
+   latestVersion: ["nl_organisationPublishURL", "cim", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-   thisVersion: ["nl_organisationPublishURL", "huidige", "/", "shortName"],
+   thisVersion: ["nl_organisationPublishURL", "cim", "/", "shortName", "/", "publishVersion"],
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
-   prevVersion: ["nl_organisationPublishURL", "vorige, "/", "shortName"],
+   prevVersion: ["nl_organisationPublishURL", "cim", "/", "shortName", "/", "previousVersion"],
 
    // Nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terijl die 
    // van de huidige en laatste versie voldoet aan de naam zoals deze is. Dat zorgt er nl. voor dat die url niet werkt.
