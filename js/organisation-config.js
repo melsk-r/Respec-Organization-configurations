@@ -20,12 +20,12 @@ var organisationConfig = {
 
    // De hier gedefinieerde variabelen kunnen door ze nogmaals in de config.js te plaatsen overruled worden.  
    // Bijv. om de url van de vorige versie niet te tonen, aan begin van de life cycle van een document is deze er nl. nog helemaal niet.
+
+   pubDomain: "cim",
 	
    //this: "this", <-- Zo kun je dus eigen variabelen introduceren die je ergens anders kunt gebruiken.
    // Zoals bijv. hier --> 'thisVersion: ["nl_organisationPublishURL", "this", "/", "shortName"],'
 
-   // Onderzoeken hoe je een oude versie kunt publiceren.
-   // ---------------------------------------------------
    // latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
    // thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
@@ -33,7 +33,7 @@ var organisationConfig = {
    // prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName", "/", "previousVersion"],
 
-   // Nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terijl die 
+   // Nog onderzoeken waarom, als de repository naam hoofdletters bevat' de url van de 'vorige versie' na renderen alleen lowercase is terwijl die 
    // van de huidige en laatste versie voldoet aan de naam zoals deze is. Dat zorgt er nl. voor dat die url niet werkt.
 
     useLogo: true,
