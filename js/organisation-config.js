@@ -72,8 +72,8 @@ var organisationConfig = {
             eo: "Verouderde versie",
             tg: "Teruggetrokken versie",
             tst: "Test versie",
-	    ig: "In Gebruik",
-	    io: "In Ontwikkeling",
+	    ig: "In Gebruik versie",
+	    io: "In Ontwikkeling versie",
 	    // Specificatie-types
             basis: "Document",
             no: "Norm",
